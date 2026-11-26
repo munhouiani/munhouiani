@@ -12,16 +12,18 @@ I like reimplementing papers to see what holds up, and I write about what I find
 - They also solved about 0.2 more of the tasks (confidence interval +0.12 to +0.29).
 - Most of that gap came from one task family, so a better world model did not simply make a better agent.
 
-Write-ups: [results](https://blog.munhou.com/2026/11/07/World-Modeling-for-LLM-Agent-Predicting-or-Acting-in-the-Environment/) · [lessons from the training run](https://blog.munhou.com/2026/11/13/Lessons-Learned-During-World-Model-Training-for-LLM-Agent/)
+**[delta_bench](https://github.com/munhouiani/delta_bench)** runs released open models on the same tasks, with no training, and scores each one on acting and on predicting tool outputs. Among Inkling 2 Mini, Qwen3.8-27B and Nemotron 3.5 Lightning, the order reversed: Lightning predicted best and solved the fewest tasks, Qwen predicted worst and solved the most, and Inkling came between them on both.
+
+Write-ups: [results](https://blog.munhou.com/World-Modeling-for-LLM-Agent-Predicting-or-Acting-in-the-Environment/) · [lessons from the training run](https://blog.munhou.com/Lessons-Learned-During-World-Model-Training-for-LLM-Agent/) · [open models compared](https://blog.munhou.com/Inkling-2-Mini-on-Delta-Lake/)
 
 ### ML for network security
 
 | Project | |
 | --- | --- |
-| [Deep-Packet](https://github.com/munhouiani/Deep-Packet) | PyTorch implementation of Deep Packet, a CNN that classifies encrypted traffic by application and traffic type. [Write-up](https://blog.munhou.com/2020/04/05/Pytorch-Implementation-of-Deep-Packet-A-Novel-Approach-For-Encrypted-Tra%EF%AC%83c-Classi%EF%AC%81cation-Using-Deep-Learning/) |
+| [Deep-Packet](https://github.com/munhouiani/Deep-Packet) | PyTorch implementation of Deep Packet, a CNN that classifies encrypted traffic by application and traffic type. [Write-up](https://blog.munhou.com/Pytorch-Implementation-of-Deep-Packet-A-Novel-Approach-For-Encrypted-Traffic-Classification-Using-Deep-Learning/) |
 | [LuNet](https://github.com/munhouiani/LuNet) | PyTorch implementation of LuNet, a deep neural network for network intrusion detection. |
-| [GEE](https://github.com/munhouiani/GEE) | A variational autoencoder for network anomaly detection, trained on unlabeled flow features built with PySpark. [Write-up](https://blog.munhou.com/2020/07/12/Pytorch-Implementation-of-GEE-A-Gradient-based-Explainable-Variational-Autoencoder-for-Network-Anomaly-Detection/) |
-| [MIDAS](https://github.com/munhouiani/MIDAS) | My fork of MIDAS for streaming anomaly detection on graphs, with a pip-installable Python package and an example on real data. [Write-up](https://blog.munhou.com/2021/03/27/Network-Anomaly-Detection-with%20MIDAS-MIDAS-R-and-MIDAS-F/) |
+| [GEE](https://github.com/munhouiani/GEE) | A variational autoencoder for network anomaly detection, trained on unlabeled flow features built with PySpark. [Write-up](https://blog.munhou.com/Pytorch-Implementation-of-GEE-A-Gradient-based-Explainable-Variational-Autoencoder-for-Network-Anomaly-Detection/) |
+| [MIDAS](https://github.com/munhouiani/MIDAS) | My fork of MIDAS for streaming anomaly detection on graphs, with a pip-installable Python package and an example on real data. [Write-up](https://blog.munhou.com/Network-Anomaly-Detection-with-MIDAS-MIDAS-R-and-MIDAS-F/) |
 
 ### Other projects
 
@@ -36,9 +38,10 @@ Older from-scratch implementations of classic algorithms: [FP-Growth (Python)](h
 
 ### Recent writing
 
-- [Lessons Learned From World Model Training for LLM Agent](https://blog.munhou.com/2026/11/13/Lessons-Learned-During-World-Model-Training-for-LLM-Agent/)
-- [World Modeling for LLM Agent: Predicting or Acting in the Environment](https://blog.munhou.com/2026/11/07/World-Modeling-for-LLM-Agent-Predicting-or-Acting-in-the-Environment/)
-- [The Raw Output of LLM is a Sequence](https://blog.munhou.com/2026/10/19/The-Raw-Output-of-LLM-is-a-Sequence/)
-- [From PPO to GDPO: Understanding the Evolution of Reinforcement Learning Algorithms](https://blog.munhou.com/2026/01/14/From-PPO-to-GDPO-%E2%80%94-Understanding-the-Evolution-of-Reinforcement-Learning-Algorithms/)
+- [Inkling 2 Mini on Delta Lake](https://blog.munhou.com/Inkling-2-Mini-on-Delta-Lake/)
+- [Lessons Learned From World Model Training for LLM Agent](https://blog.munhou.com/Lessons-Learned-During-World-Model-Training-for-LLM-Agent/)
+- [World Modeling for LLM Agent: Predicting or Acting in the Environment](https://blog.munhou.com/World-Modeling-for-LLM-Agent-Predicting-or-Acting-in-the-Environment/)
+- [The Raw Output of LLM is a Sequence](https://blog.munhou.com/The-Raw-Output-of-LLM-is-a-Sequence/)
+- [From PPO to GDPO: Understanding the Evolution of Reinforcement Learning Algorithms](https://blog.munhou.com/From-PPO-to-GDPO-Understanding-the-Evolution-of-Reinforcement-Learning-Algorithms/)
 
 More on the [blog](https://blog.munhou.com/) · [About me](https://blog.munhou.com/about/) · [LinkedIn](https://www.linkedin.com/in/munhouetic/)
